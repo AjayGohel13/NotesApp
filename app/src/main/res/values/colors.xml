@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="black_in_dark_mode">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="violet_400">#a78bfa</color>
+    <color name="violet_300">#c4b5fd</color>
+    <color name="violet_500">#8b5cf6</color>
+    <color name="violet_700">#6d28d9</color>
+    <color name="indigo_700">#4338ca</color>
+    <color name="indigo_600">#4f46e5</color>
+    <color name="indigo_500">#6366f1</color>
+    <color name="indigo_400">#818cf8</color>
+    <color name="sky_500">#2563eb</color>
+    <color name="sky_600">#3b82f6</color>
+    <color name="emerald_400">#34d399</color>
+    <color name="emerald_500">#10b981</color>
+    <color name="emerald_300">#6ee7b7</color>
+    <color name="indigo_950">#4c1d95</color>
+    <color name="yellow">#fcd34d</color>
+    <color name="rose_400">#fb7185</color>
+    <color name="rose_500">#f43f5e</color>
+    <color name="gray">#374151</color>
+    <color name="gray_200">#e5e7eb</color>
+    <color name="gray_50">#f3f4f6</color>
+    <color name="gray_500">#6b7280</color>
+    <color name="transperent">#00000000</color>
+</resources>
+

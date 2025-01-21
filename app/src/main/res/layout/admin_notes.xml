@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    android:layout_marginHorizontal="8dp"
+    android:paddingHorizontal="8dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/adminNoteTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/indigo_400"
+                android:textSize="15sp"
+                android:text="@string/loading" />
+
+
+            <TextView
+                android:id="@+id/adminNoteDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="@string/loading" />
+
+            <TextView
+                android:id="@+id/adminNoteDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/indigo_400"
+                android:textSize="15sp"
+                android:text="@string/_20_feb_2024" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/adminNotesDelete"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/roundbg"
+                android:padding="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/check"
+                app:tint="@color/indigo_500" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

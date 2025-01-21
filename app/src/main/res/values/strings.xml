@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SQLiteExample</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_notes">Add Notes</string>
+    <string name="add_notes_to_keep_it">Add notes to keep it!</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_description">Note Description</string>
+    <string name="notes">Notes</string>
+    <string name="loading">Loading</string>
+    <string name="_20_feb_2024">20 Feb,2024</string>
+</resources>

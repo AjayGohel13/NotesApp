@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notesFragments.ReadFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/transperent"
+            android:text="@string/notes"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="normal"
+            app:icon="@drawable/notebook_pen"
+            app:iconSize="20dp"
+            app:iconTint="@color/black" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/adminNotesForNew"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray_50"
+            android:padding="10dp"
+            tools:ignore="NestedScrolling" />
+
+    </LinearLayout>
+
+</FrameLayout>
